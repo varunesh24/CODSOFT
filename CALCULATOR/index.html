@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="clock" id="clock">
+            <span id="time"></span>
+        
+	<h2 style="text-align:center; color:white;"> Codsoft Calculator </h2></div>
+        <div class="display"style="text-align:center;align-item:center;">
+            <input type="text" id="result" disabled>
+        </div>
+        <div class="buttons">
+            <button class="operator" value="+" onclick="addToScreen('+')">+</button>
+            <button class="operator" value="-" onclick="addToScreen('-')">-</button>
+            <button class="operator" value="*" onclick="addToScreen('*')">*</button>
+            <button class="operator" value="/" onclick="addToScreen('/')">/</button>
+            <button value="7" onclick="addToScreen('7')">7</button>
+            <button value="8" onclick="addToScreen('8')">8</button>
+            <button value="9" onclick="addToScreen('9')">9</button>
+            <button value="4" onclick="addToScreen('4')">4</button>
+            <button value="5" onclick="addToScreen('5')">5</button>
+            <button value="6" onclick="addToScreen('6')">6</button>
+            <button value="1" onclick="addToScreen('1')">1</button>
+            <button value="2" onclick="addToScreen('2')">2</button>
+            <button value="3" onclick="addToScreen('3')">3</button>
+            <button value="0" onclick="addToScreen('0')">0</button>
+            <button class="clear" id="clear" onclick="clearScreen()">C</button>
+            <button id="calculate" onclick="calculateResult()">=</button>
+        </div>
+	<h4 style="text-align:center; color:white;"> Developed by <a href="https://www.linkedin.com/posts/varunesh-r-26567a269_webdevelopment-internship-codsoft-activity-7117079803198877696-kMB2?utm_source=share&utm_medium=member_android" style="color:yellow;"> Varunesh </a> </h4>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
